@@ -1,0 +1,77 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.0",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Hololens3DViewer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "MicrosoftOpenXR",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ef8930ca860148c498b46887da196239",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"HoloLens"
+			]
+		},
+		{
+			"Name": "MrtkHub",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/211d009f26e943f19f41bbbaff9f273c"
+		},
+		{
+			"Name": "XRVisualization",
+			"Enabled": true
+		},
+		{
+			"Name": "VisualStudioTools",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/362651520df94e4fa65492dbcba44ae2",
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "glTFRuntime",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d2ed3709933d4608a3a8dd746cbc045d"
+		},
+		{
+			"Name": "UXTools",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f9f9cddaf5834ad1abeda49da34adf85",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"HoloLens",
+				"Android"
+			]
+		},
+		{
+			"Name": "AndroidFileServer",
+			"Enabled": false
+		},
+		{
+			"Name": "BlueprintFileUtils",
+			"Enabled": true
+		}
+	],
+	"TargetPlatforms": [
+		"HoloLens"
+	]
+}
