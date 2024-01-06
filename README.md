@@ -1,7 +1,8 @@
 # Hololens3DViewer
 
 This viewer is only capable of opening a single .glb file at a time and has only been tested with those exported from ABB RobotStudio.
-It has only been tested on a Hololens 2 with Windows Holographic for Business 22621.1254
+It has only been tested on a Hololens 2 with Windows Holographic for Business 22621.1254.\
+This whole project is no ready to use viewer for every case, it is just a small little viewer that I did as a project over the holidays to explore Unreal Engine a bit and therefore every release should at best be considered a BETA version.
 
 ## Future of this project
 
@@ -22,6 +23,7 @@ Future plans for this project (these are however very unlikely to be implemented
 
 ## Usage
 
+The installation files can be found under the releases tab.
 The file that should be opened needs to be in the .glb format and has to be put in the windows user directory "3D Objects" prior to starting the app. This can for example be done using usb or the explorer of the Hololens.\
 After starting the app the 3D model is placed somewhere in the world. To position it correctly in the world [this qr-code](docs/qrcode.pdf) needs to be printed out, put on the floor and looked at.
 
